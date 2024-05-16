@@ -1,11 +1,8 @@
-body{
-    background-color:black;
-    color: white;
-    margin: 0;
+*{  margin: 0;
+    color: rgb(255, 166, 0, 0.75);
 }
-
 header{
-    background-color: rgb(255, 166, 0, 0.75);
+    background-color: rgb(255, 166, 0);
     text-align: center;
     padding: 10px;
     display: flex;    
@@ -13,8 +10,9 @@ header{
     align-items: center;
     position: sticky;
     z-index: 99;
+    top: 0px;
+    width: 100%;
     }
-
 .title-logo{
     color: rgb(255, 166, 0, 0.75);
     background-color: black;
@@ -22,7 +20,10 @@ header{
     padding: 10px;  
     transition: all 1.5s ease-in-out;
 }
-
+.title-logo a{
+    text-decoration: none;
+    color: rgb(255, 166, 0, 0.75);
+}
 .menu-nav a{
     text-decoration: none;
     color: rgb(255, 166, 0, 0.75);
@@ -31,45 +32,41 @@ header{
     border-radius: 10px;
     padding: 10px;  
     transition: all .2s ease-in-out;
-    
 }
-
 .menu-nav a:hover {
     transform: scale(2.1);
     box-shadow: 3px 3px 10px rgba(0, 0,0,.9) ;
     color: black;
     background-color:  rgb(255, 166, 0, 0.20);
 }
-.menu-nav-lateral{
-    display: flex;
-    flex-direction: column;
-    margin-left: 40px;
-}
-.menu-nav-lateral a{
-    text-decoration: none;
-    color: rgb(255, 166, 0, 0.75);
-    font-size: 18px;
+main{
     background-color: black;
-    border-radius: 10px;
-    padding: 10px;  
-    transition: all .2s ease-in-out;
-    gap:  20px;
-}
-.menu-nav-lateral a:hover {
-    
-    box-shadow: 3px 3px 10px rgba(0, 0,0) ;
-    color: black;
-    background-color:  rgb(255, 166, 0, 0.20);
+    padding: 50px;
 }
 .conteiner-banners{
-    display: flex;
-    flex-direction:row;
-}
-.img-banners img{
-    height: 70vh;
-    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
 }
 
+.conteiner-banners img{
+    height: 80vh;
+    width: 100%;
+}
+.carrusel{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.title-h1-deco{
+    background-color: rgb(255, 166, 0, 0.75);
+    color: black;
+    border-radius: 10px;
+    padding: 10px;  
+    transition: all 1.5s ease-in-out;
+}
 .containerAnime{
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -87,14 +84,21 @@ header{
 .imgContainer img{
     width:  300px;
     height: 150px;
-    
     border-radius: 10px;
     }
 
 footer{
-    background-color: rgb(255, 166, 0, 0.75);
+    background-color: rgb(255, 166, 0);
     text-align: center;
     padding: 25px;
+    color: black !important;
+}
+footer a{
+    background-color: black;
+    padding: 6px;
+    border-radius: 5px;
+}
+footer h4{
     color: black;
 }
 
@@ -113,8 +117,9 @@ footer{
             padding: 20px;
             
         }
-        aside{
-            display: none;
+        .carrusel{
+            width: 100%;
+            margin-left: 0px;
         }
     }
 
@@ -122,9 +127,9 @@ footer{
         .containerAnime{
             grid-template-columns: auto;
         }
-        
-        aside{
-            display: none;
+        .carrusel{
+            width: 100%;
+            margin-left: 0px;
         }
     }
     
