@@ -42,6 +42,7 @@ header{
 main{
     background-color: black;
     padding: 50px;
+    text-align: center;
 }
 .conteiner-banners{
     display:flex;
@@ -51,15 +52,25 @@ main{
 }
 
 .conteiner-banners img{
-    height: 80vh;
+    height: 60vh;
     width: 100%;
+}
+.conteiner-banners img:hover{
+    height: 60vh;
+    width: 80%;
+    transition: 5s;
 }
 .carrusel{
     display: flex;
-    margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
+    justify-content: center;
 }
+.carrusel div{
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+
 .title-h1-deco{
     background-color: rgb(255, 166, 0, 0.75);
     color: black;
@@ -117,20 +128,25 @@ footer h4{
             padding: 20px;
             
         }
-        .carrusel{
-            width: 100%;
-            margin-left: 0px;
+        .carrusel div.w-75{
+            width: 100% !important;
         }
     }
 
     @media (max-width:  500px) {
+        main{
+            display: flex;
+            flex-direction: column;
+            padding: 0px;
+            text-align: center;
+        }
         .containerAnime{
             grid-template-columns: auto;
         }
-        .carrusel{
-            width: 100%;
-            margin-left: 0px;
+        .carrusel div.w-75{
+            width: 100% !important;
         }
+
     }
     
 }
