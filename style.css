@@ -119,10 +119,12 @@ footer a{
 footer h4{
     color: black;
 }
-
+.container-form{
+    width: 100%;
+}
 /*estilos para el formulario*/
 form {
-    max-width: 400px;
+    max-width: 450px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
@@ -207,6 +209,11 @@ h5{
     }
 
     @media (max-width:  500px) {
+        *{
+            font-size: 12px;
+            
+
+        }
         main{
             display: flex;
             flex-direction: column;
@@ -218,6 +225,13 @@ h5{
         }
         .carrusel div.w-75{
             width: 100% !important;
+        }
+        header{
+            justify-content: space-evenly
+        }
+        .conteiner-form{
+            background-color: black;
+            margin: 10px;
         }
 
     }
