@@ -1,0 +1,217 @@
+*{  margin: 0;
+    color: rgb(255, 166, 0, 0.75);
+}
+header{
+    background-color: rgb(255, 166, 0);
+    text-align: center;
+    padding: 10px;
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    z-index: 99;
+    top: 0px;
+    width: 100%;
+    }
+.title-logo{
+    color: rgb(255, 166, 0, 0.75);
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;  
+    transition: all 1.5s ease-in-out;
+}
+.title-logo a{
+    text-decoration: none;
+    color: rgb(255, 166, 0, 0.75);
+}
+.menu-nav a{
+    text-decoration: none;
+    color: rgb(255, 166, 0, 0.75);
+    font-size: 18px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;  
+    transition: all .2s ease-in-out;
+}
+.menu-nav a:hover {
+    transform: scale(2.1);
+    box-shadow: 3px 3px 10px rgba(0, 0,0,.9) ;
+    color: black;
+    background-color:  rgb(255, 166, 0, 0.20);
+}
+main{
+    background-color: black;
+    padding: 50px;
+    text-align: left;
+}
+.conteiner-banners{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.conteiner-banners img{
+    height: 60vh;
+    width: 100%;
+}
+.conteiner-banners img:hover{
+    height: 60vh;
+    width: 80%;
+    transition: 5s;
+}
+.carrusel{
+    display: flex;
+    justify-content: center;
+}
+.carrusel div{
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+
+.title-h1-deco{
+    background-color: rgb(255, 166, 0, 0.75);
+    color: black;
+    border-radius: 10px;
+    padding: 10px;  
+    transition: all 1.5s ease-in-out;
+}
+.containerAnime{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    grid-gap: 30px;
+    padding: 40px;
+}
+.row{
+    background-color: rgb(255, 166, 0, 0.75);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.imgContainer img{
+    width:  300px;
+    height: 150px;
+    border-radius: 10px;
+    }
+
+footer{
+    background-color: rgb(255, 166, 0);
+    text-align: center;
+    padding: 25px;
+    color: black !important;
+}
+footer a{
+    background-color: black;
+    padding: 6px;
+    border-radius: 5px;
+}
+footer h4{
+    color: black;
+}
+
+@media screen {
+
+    @media  (min-width: 801px){
+        
+        .containerAnime{
+            grid-auto-columns: auto;
+        }
+    }
+    
+    @media (max-width:  800px) {
+        .containerAnime{
+            grid-template-columns: repeat(2, auto);
+            padding: 20px;
+            
+        }
+        .carrusel div.w-75{
+            width: 100% !important;
+        }
+    }
+
+    @media (max-width:  500px) {
+        main{
+            display: flex;
+            flex-direction: column;
+            padding: 0px;
+            text-align: left;
+        }
+        .containerAnime{
+            grid-template-columns: auto;
+        }
+        .carrusel div.w-75{
+            width: 100% !important;
+        }
+
+    }
+    
+}
+/*estilos para el formulario*/
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/*estilos para los input*/
+input[type="text"], input[type="email"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/*estilos para los botones*/
+input[type="submit"] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    
+}
+/*estilos para ubicar los botones en una solo línea*/
+.boton{
+    display: flex;
+}
+/*estilos para darle color al fondo del botón*/
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+textarea{
+    width: 100%;
+}
+.form-registro{
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+/*estilos para las posiciones de los campos de error y validación*/
+.error-container{
+    position: relative;
+}
+.error-image{
+    position: absolute;
+    right: 15px;
+    top: -47px;
+    width: 35px;
+    height: 35px;
+}
+.error{
+    color: red;
+    font-style: italic;
+    text-align: right;
+    font-size: 12px;
+    margin: -12px 0 18px;
+}
