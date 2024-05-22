@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./static/css/style.css"/>
     <script src="https://kit.fontawesome.com/78f5869fc8.js" crossorigin="anonymous"></script>
     <title>Zdv Anime</title>
 </head>
@@ -22,64 +23,63 @@
         </section>
         <section class="containerAnime">
                             
-                <div class="row">
+                <div class="row" id="1">
                     <div class="imgContainer">
                         <img src="imagenes/img-onepiece.jpe" alt="Imagen del anime" id="img-onepiece"/>
                     </div>
                     <div class="infoAnime">
                         <h3>One Piece</h3>
-                        <a href="masInfo.html"><button>Mas Info...</button></a>
-                        <button onclick="Ver()">Ver</button>
+                        <a href="masInfo.html"><button onclick=Ver(1)>Ver</button></a>
                     </div>
                 </div>
-                <div class="row">
+
+                <div class="row" id="2"> <!--nuevo anime-->
                     <div class="imgContainer">
-                        <img src="imagenes/img-onepiece.jpe" alt="Imagen del anime" id="img-onepiece"/>
+                        <img src="imagenes/naruto.jpg" alt="Imagen del anime" id="img-naruto"/>
                     </div>
                     <div class="infoAnime">
-                        <h3>One Piece</h3>
-                        <a href="masInfo.html"><button>Mas Info...</button></a>
-                        <button onclick="Ver()">Ver</button>
+                        <h3>Naruto</h3> <!--cambio de anime-->
+                        <a href="masInfo.html"><button onclick=Ver(2)>Ver</button></a>
+                        
                     </div>
                 </div>
-                <div class="row">
+
+                <div class="row" id="3"> <!--nuevo anime-->
                     <div class="imgContainer">
-                        <img src="imagenes/img-onepiece.jpe" alt="Imagen del anime" id="img-onepiece"/>
+                        <img src="imagenes/demon-slayer-carrusel.jpg" alt="Imagen del anime" id="demon-slayer"/>
                     </div>
                     <div class="infoAnime">
-                        <h3>One Piece</h3>
-                        <a href="masInfo.html"><button>Mas Info...</button></a>
-                        <button onclick="Ver()">Ver</button>
+                        <h3>Demon Slayer</h3> <!--cambio de anime-->
+                        <a href="masInfo.html"><button onclick=Ver(3)>Ver</button></a>
                     </div>
                 </div>
-                <div class="row">
+
+                <div class="row" id="4"> <!--nuevo de anime-->
                     <div class="imgContainer">
-                        <img src="imagenes/img-onepiece.jpe" alt="Imagen del anime" id="img-onepiece"/>
+                        <img src="imagenes/SpyxFamily-carrusel.jpg" width="100%" height="100%"  alt="Imagen del anime" id="img-sxf"/>
                     </div>
                     <div class="infoAnime">
-                        <h3>One Piece</h3>
-                        <a href="masInfo.html"><button>Mas Info...</button></a>
-                        <button onclick="Ver()">Ver</button>
+                        <h3>SpyxFamily</h3> <!--cambio de anime-->
+                        <a href="masInfo.html"><button onclick=Ver(4)>Ver</button></a>
                     </div>
                 </div>
-                <div class="row">
+
+                <div class="row" id="5"><!--nuevo anime-->
                     <div class="imgContainer">
-                        <img src="imagenes/img-onepiece.jpe" alt="Imagen del anime" id="img-onepiece"/>
+                        <img src="imagenes/Dragon-ball-carrusel.jpg" alt="Imagen del anime" id="img-dragonball"/>
                     </div>
                     <div class="infoAnime">
-                        <h3>One Piece</h3>
-                        <a href="masInfo.html"><button>Mas Info...</button></a>
-                        <button onclick="Ver()">Ver</button>
+                        <h3>Dragon Ball</h3> <!--cambio de anime-->
+                        <a href="masInfo.html"><button onclick=Ver(5)>Ver</button></a>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row" id="6"> <!--nuevo anime-->
                     <div class="imgContainer">
-                        <img src="imagenes/img-onepiece.jpe" alt="Imagen del anime" id="img-onepiece"/>
+                        <img src="imagenes/evangelion-carrusel.jpg" alt="Imagen del anime" id="img-eva"/>
                     </div>
                     <div class="infoAnime">
-                        <h3>One Piece</h3>
-                        <a href="masInfo.html"><button>Mas Info...</button></a>
-                        <button onclick="Ver()">Ver</button>
+                        <h3>Evangelion</h3> <!--cambio de anime-->
+                        <a href="masInfo.html"><button onclick=Ver(6)>Ver</button></a>
                     </div>
                 </div>            
             </section>
@@ -91,9 +91,7 @@
             <a href="http://facebook.com" target="_blank"><i class="fa-brands fa-facebook"  aria-hidden="true"></i></a>
             <a href="http://instagram.com" target="_blank"><i class="fa-brands fa-instagram"  aria-hidden="true"></i></a>
         </div>
-           
         <h4> &copy; Todos los derechos reservados | ZDV Anime 2024</h4>
-    
     </footer>
 </body>
 </html>

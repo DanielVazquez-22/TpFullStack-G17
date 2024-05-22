@@ -1,0 +1,43 @@
+
+main{
+    background-color: black;
+    padding: 50px;
+}
+
+td:first-of-type {
+    font-weight: bold;
+}
+.info{
+    display: inline-flex;
+    padding-left: 15px;
+    align-content:start;
+    align-items:start;
+}
+.trailer{
+    display: inline-flex
+    /* padding-right: 10px; */
+}
+.complement{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+@media screen {
+
+    @media  (min-width: 801px){
+        
+    }
+    
+    @media (max-width:  800px) {
+        .info{
+            display: block;
+        }
+        .trailer{
+            display: block;
+        }
+    }
+
+    @media (max-width:  500px) {
+        
+    } 
+}
