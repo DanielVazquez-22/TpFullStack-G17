@@ -33,7 +33,12 @@ td:first-of-type {
             display: block;
         }
         .trailer{
-            display: block;
+            width: 80%;
+        }
+        .complement{
+            display: flex;
+            flex-direction: column;
+            align-items: center
         }
     }
 
