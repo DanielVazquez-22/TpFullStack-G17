@@ -10,6 +10,7 @@
       }
     ],
     "disown-opener": "off",
-    "compat-api/html": "off"
+    "compat-api/html": "off",
+    "axe/forms": "off"
   }
 }

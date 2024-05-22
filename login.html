@@ -18,21 +18,38 @@
 
     </header>
     <main>
-        <h2>Formulario de Registro</h2>
-<form action="show_data.html" target="_blank">
+        <h2 class="form-registro">Formulario de Registro</h2>
+        <div class="error-container">
+        <form action="" target="">
 
-    <label for="nombre">Nombre:</label> <input type="text" id="nombre" name="nombre"><br/><br/>
+            <label for="nombre">Nombre:</label> <input type="text" placeholder="Name" id="nombre"
+                name="nombre"><br /><br />
+            <div id="nombre-error" class="error-container"></div>
 
-    <label for="apellido">Apellido:</label> <input type="text" id="apellido" name="apellido"><br/><br/>
+            <label for="apellido">Apellido:</label> <input type="text" placeholder="Surname" id="apellido"
+                name="apellido"><br /><br />
+            <div id="apellido-error" class=" error-container"></div>
 
-    <label for="direccion">Direccion:</label> <input type="text" id="direccion" name="direccion"><br/><br/>
-
-    <label for="ciudad">Ciudad:</label> <input type="text"  id="ciudad" name="ciudad"><br/><br/>
-
-    <label for="codigopostal">Codigo Postal:</label> <input type="text" name="codigopostal"><br><br>
-
-    <label for="fechanac">Fecha de Nacimiento:</label> <input type="date" name="fechanac" id=""><br/><br>
-
+            <label for="direccion">Direccion:</label> <input type="text" placeholder="Dirección" id="direccion"
+                name="direccion"><br /><br />
+            <div id="dir-error" class=" error-container"></div>
+            
+            <label for="ciudad">Ciudad:</label> <input type="text" placeholder="cuidad" id="ciudad"
+                name="ciudad"><br /><br />  
+            <div id="ciudad-error" class=" error-container"></div>
+            
+            <label for="email">Correo electrónico:</label> <input type="email" placeholder="email" id="email"
+                name="email"><br /><br />  
+            <div id="email-error" class=" error-container"></div>
+            
+            <label for="teléfono">Teléfono:</label> <input type="number" placeholder="0123456789" id="teléfono"
+                name="teléfono" ><br /><br />  
+            <div id="Telef-error" class=" error-container"></div>
+            
+            <label for="codigopostal">Codigo Postal:</label> <input type="text" placeholder="código postal"
+                name="codigopostal"><br><br>
+            
+            <label for="fechanac">Fecha de Nacimiento:</label> <input type="date" name="fechanac" id=""><br /><br>
     <label for="genero">Genero:
         <input type="radio" name="genero" id="generohombre"><label for="text">Hombre</label>
         <input type="radio" name="genero" id="generom"><label for="text" >Mujer</label>
@@ -40,26 +57,31 @@
     </label><br><br>
 
     <label for="estudios">Estudios:
+        <br><br>
         <input type="checkbox" name="estudios" value="primarios"> Primarios
         <input type="checkbox" name="estudios" value="secundarios">Secundarios
         <input type="checkbox" name="estudios" value="terciarios"> Terciarios
+        <br>
         <input type="checkbox" name="estudios" value="universitarios"> Univercitarios
         <input type="checkbox" name="estudios" value="otro"> Otros
     </label><br><br>
-    <textarea name="comentario" id="" cols="30" rows="10" placeholder="info extra"></textarea>
-    <input type="submit" value="Enviar">
+    <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="info extra"></textarea>
+    <div class="boton">
+    <input id="button" type="submit" value="Confirmar">
+    <input id="button1" type="submit" value="Enviar">
+    </div>
 </form>
-
-<p><h5>Si usted envia se enviara a la paguina "show_data.html"</h5></p>
     </main>
-        
     <footer>
         <div>
             <a href="http://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"  aria-hidden="true"></i></a>
             <a href="http://facebook.com" target="_blank"><i class="fa-brands fa-facebook"  aria-hidden="true"></i></a>
             <a href="http://instagram.com" target="_blank"><i class="fa-brands fa-instagram"  aria-hidden="true"></i></a>
         </div>
-        <h4> &copy; Todos los derechos reservados | ZDV Anime 2024</h4>
+        <div>
+        <br><h4> &copy; Todos los derechos reservados | ZDV Anime 2024</h4>
+    </div>
     </footer>
+    <script src="./index.js"></script>
 </body>
 </html>
