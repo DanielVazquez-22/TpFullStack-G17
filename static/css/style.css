@@ -22,6 +22,34 @@ td:first-of-type {
     display: flex;
     justify-content: center;
 }
+.masInfoAnime{
+    padding: 50px;
+    background-color: black;
+}
+#jsonBtn{
+    color: white;
+    text-decoration: none;
+}
+#resultado{
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+    grid-gap: 20px;
+    padding: 40px;
+}
+#resultado div{
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(255, 166, 0, 0.75);
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+    }
+    #resultado div p{
+        margin: 20px;
+    }
+
 @media screen {
 
     @media  (min-width: 801px){

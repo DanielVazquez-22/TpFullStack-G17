@@ -1,12 +1,9 @@
-{
-    "page": 1,
-    "results" : [
+[
       {
         "id": 1,
         "title": "One Piece",
-        
         "description": "Una historia épica de piratas, donde narra la historia de 'Monkey D. Luffy' quien cuado tenia 7 años, comió accidentalmente una 'Akuma no mi' (Futa del diablo) la cual le dio poderes de goma. Por otra parte 'Gol D. Roger' conocido como 'El rey de los Piratas' quien fuera ejecutado por la Marine, habló antes de morir, acerca de su famoso tesoro 'One Piece' escondido en la 'Grand line'. Esta noticia desato la gran era de la piratas lanzando a incontables piratas a ese lugar, en busca de 'One Piece' el tesoro perdido. Diez años después, Luffy inspirado en 'Gol D. Roger' y un pirata de nombre Akagami no Shanks (Shanks el pelirrojo) se convierte en pirata deseando ser el próximo 'Rey de los Piratas' y zarpar para conocer amigos y tener aventuras con ellos, teniendo como meta encontrar el 'One Piece'",
-        "trailer" : "'<iframe max-width=100%; aspect-ratio=16/9 width='560' height='315' src='https://www.youtube.com/embed/CWrJQzm0diI?si=fTnwXM4pr12uSoue' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>'", 
+        "trailer" : "https://www.youtube.com/embed/CWrJQzm0diI?si=fTnwXM4pr12uSoue", 
         "tiInf" : "One Piece",
         "status": "En emision.."
       } ,
@@ -14,7 +11,7 @@
         "id": 2,
         "title": "Naruto",
         "description": "Narra la historia de un ninja adolescente llamado Naruto Uzumaki, cuyos padres murieron en el ataque del Zorro Demonio de Nueve Colas llamado Kurama y quien aspira a convertirse en Hokage (líder de su aldea), con el propósito de ser reconocido como alguien importante dentro de la aldea y entre sus compañeros.",
-        "trailer" : "<iframe max-width=100%; aspect-ratio=16/9 width='560' height='315' src='https://www.youtube.com/embed/vxvP9zSOL7s?si=kntYW3XH0SCmBDcB' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>",
+        "trailer" : "https://www.youtube.com/embed/QczGoCmX-pI",
         "tiInf" : "Naruto",
         "status": "Finalizado"
       },
@@ -22,7 +19,7 @@
         "id": 3,
         "title": "Demon Slayer",
         "description": "Nos encontramos en la Era Taisho en Japón, la historia se centra en un joven llamado Tanjiro Kamado; un joven inteligente y de buen corazón que vive con su familia en las montañas, el cual se ha convertido en la única fuente de ingresos de su familia tras el fallecimiento de su padre, haciendo viajes constantes al pueblo cercano para vender carbón. Sin embargo, toda su vida cotidiana cambia radicalmente cuando en uno de estos viajes, regresa a casa y descubre que toda su familia había sido asesinada por un poderoso demonio llamado Muzan Kibutsuji, siendo únicamente su hermana menor llamada Nezuko Kamado la única sobreviviente de aquel incidente.",
-        "trailer" : "'<iframe max-width=100%; aspect-ratio=16/9 width='560' height='315' src='https://www.youtube.com/embed/eQf4fqNhhPE?si=G81RQX_YQ4Y_MncN' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>'",
+        "trailer" : "https://www.youtube.com/embed/eQf4fqNhhPE?si=G81RQX_YQ4Y_MncN",
         "tiInf" : "Demon Slayer",
         "status": "En emision.."
       },
@@ -30,7 +27,7 @@
         "id": 4,
         "title": "Spy x Family",
         "description": "Una historia épica de piratas, donde narra la historia de 'Monkey D. Luffy' quien cuado tenia 7 años, comió accidentalmente una 'Akuma no mi' (Futa del diablo) la cual le dio poderes de goma. Por otra parte 'Gol D. Roger' conocido como 'El rey de los Piratas' quien fuera ejecutado por la Marine, habló antes de morir, acerca de su famoso tesoro 'One Piece' escondido en la 'Grand line'. Esta noticia desato la gran era de la piratas lanzando a incontables piratas a ese lugar, en busca de 'One Piece' el tesoro perdido. Diez años después, Luffy inspirado en 'Gol D. Roger' y un pirata de nombre Akagami no Shanks (Shanks el pelirrojo) se convierte en pirata deseando ser el próximo 'Rey de los Piratas' y zarpar para conocer amigos y tener aventuras con ellos, teniendo como meta encontrar el 'One Piece'",
-        "trailer" : "<iframe max-width=100%; aspect-ratio=16/9 width='560' height='315' src='https://www.youtube.com/embed/U_rWZK_8vUY?si=hoHKu1SOtA-tZIXo' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>",
+        "trailer" : "https://www.youtube.com/embed/U_rWZK_8vUY?si=hoHKu1SOtA-tZIXo",
         "tiInf" : "Spy x Family",
         "status": "En emision.."
       },
@@ -38,19 +35,17 @@
         "id": 5,
         "title": "Dragon Ball",
         "description": "Su trama describe las aventuras de Gokū, un guerrero saiyajin, experto en artes marciales que en su infancia inicia sus viajes y aventuras en las que pone a prueba y mejora sus habilidades de pelea, enfrentando oponentes y protegiendo a la Tierra de otros seres que quieren conquistarla y exterminar a la humanidad.",
-        "trailer" : "<iframe max-width=100% aspect-ratio=16/9 width=560 height=315 src=https://www.youtube.com/embed/CWrJQzm0diI?si=fTnwXM4pr12uSoue title=YouTube video player frameborder=0 allow=accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share referrerpolicy=strict-origin-when-cross-origin allowfullscreen></iframe>",
-        "tiInf" : "One Piece",
+        "trailer" : "https://www.youtube.com/embed/cie7scVUdQE",
+        "tiInf" : "Dragon Ball",
         "status": "En emision.."
       },
       {
         "id": 6,
         "title": "Evangelion",
         "description": "La historia de la obra se da lugar en un mundo futurista en el que una organización paramilitar llamada NERV protege a la humanidad de los ataques de seres de origen y naturaleza desconocidos, los «Ángeles», utilizando para ello bio mechas humanoides llamados Evangelion (acortado a EVA).",
-        "trailer" : "<iframe max-width=100%; aspect-ratio=16/9 width='560' height='315' src='https://www.youtube.com/embed/o6wtDPVkKqI?si=dwK57hFnMwYnjkWC' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>",
+        "trailer" : "https://www.youtube.com/embed/3bdjDmYc8J4",
         "tiInf": "Evangelion",
         "status": "Finalizado"
       }
-    ]   
-}
-
+    ]
 
